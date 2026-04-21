@@ -247,7 +247,19 @@ const ServiceDetail = () => {
 
       {/* Description */}
       <section className="section-padding">
-        <div className="container-wide mx-auto max-w-4xl">
+        <div className="container-wide mx-auto max-w-5xl">
+          {serviceImages[slug || ""] && (
+            <div className="rounded-xl overflow-hidden shadow-xl mb-10">
+              <img
+                src={serviceImages[slug || ""]}
+                alt={`${data.title} services`}
+                className="w-full h-64 md:h-80 object-cover"
+                width={1280}
+                height={720}
+                loading="lazy"
+              />
+            </div>
+          )}
           <p className="text-muted-foreground leading-relaxed text-lg">{data.description}</p>
         </div>
       </section>
