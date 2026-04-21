@@ -80,14 +80,14 @@ const Contact = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-xl">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.952060999191!2d77.36368821112104!3d28.62287637556852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5b43a869a17%3A0xe44678df8395e77c!2sIThum%20Tower!5e1!3m2!1sen!2sin!4v1734851413367!5m2!1sen!2sin"
+                  src="https://maps.google.com/maps?q=HK%20Global%20Infotech%2C%20IThum%20Tower%2C%20Sector%2062%2C%20Noida&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Office Location"
+                  title="HK Global Infotech Office Location"
                 />
               </div>
             </div>
