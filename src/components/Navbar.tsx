@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
       <div className="container-wide mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-20">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="HK Global Infotech" className="h-14 w-auto" />
+          <img src={logo} alt="HK Global Infotech" className="h-[3.85rem] w-auto" />
         </Link>
 
         {/* Desktop Nav */}

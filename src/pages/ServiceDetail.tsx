@@ -202,6 +202,17 @@ const servicesData: Record<string, ServiceData> = {
   },
 };
 
+const serviceImages: Record<string, string> = {
+  "order-to-cash": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1280&q=80",
+  "bookkeeping": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1280&q=80",
+  "ar-ap-services": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1280&q=80",
+  "inventory-valuation": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1280&q=80",
+  "order-management": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1280&q=80",
+  "back-office-support": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1280&q=80",
+  "sourcing-procurement": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1280&q=80",
+  "talent-outsourcing": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1280&q=80",
+};
+
 const FAQ = ({ q, a }: { q: string; a: string }) => {
   const [open, setOpen] = useState(false);
   return (
@@ -236,7 +247,19 @@ const ServiceDetail = () => {
 
       {/* Description */}
       <section className="section-padding">
-        <div className="container-wide mx-auto max-w-4xl">
+        <div className="container-wide mx-auto max-w-5xl">
+          {serviceImages[slug || ""] && (
+            <div className="rounded-xl overflow-hidden shadow-xl mb-10">
+              <img
+                src={serviceImages[slug || ""]}
+                alt={`${data.title} services`}
+                className="w-full h-64 md:h-80 object-cover"
+                width={1280}
+                height={720}
+                loading="lazy"
+              />
+            </div>
+          )}
           <p className="text-muted-foreground leading-relaxed text-lg">{data.description}</p>
         </div>
       </section>

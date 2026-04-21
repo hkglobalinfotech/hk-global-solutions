@@ -77,7 +77,7 @@ const Footer = () => (
 
     <div className="border-t border-primary-foreground/10">
       <div className="container-wide mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="text-sm text-primary-foreground/50">Copyright © 2024 HK Global Infotech. All Rights Reserved.</p>
+        <p className="text-sm text-primary-foreground/50">Copyright © 2026 HK Global Infotech. All Rights Reserved.</p>
         <div className="flex gap-6">
           <Link to="/contact" className="text-sm text-primary-foreground/50 hover:text-secondary transition-colors">Contact Us</Link>
           <Link to="/privacy-policy" className="text-sm text-primary-foreground/50 hover:text-secondary transition-colors">Privacy Policy</Link>
