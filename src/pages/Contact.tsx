@@ -47,7 +47,7 @@ const Contact = () => {
                 <MapPin className="h-6 w-6 text-secondary" />
               </div>
               <h3 className="font-bold text-foreground mb-2">Office Location</h3>
-              <p className="text-sm text-muted-foreground">Office No. 206, Tower B, IThum Towers, Sector 62, Noida (201012), UP, India</p>
+              <p className="text-sm text-muted-foreground">Office No. 610, 6th Floor, Tower A, IThum Towers, Sector 62, Noida (201012), UP, India</p>
             </div>
           </div>
 
