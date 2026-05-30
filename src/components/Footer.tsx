@@ -68,7 +68,7 @@ const Footer = () => (
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="h-4 w-4 mt-0.5 text-secondary shrink-0" />
-              <span className="text-sm text-primary-foreground/70">Office No. 206, Tower B, IThum Towers, Sector 62, Noida (201012), Uttar Pradesh, India</span>
+              <span className="text-sm text-primary-foreground/70">Office No. 610, 6th Floor, Tower A, IThum Towers, Sector 62, Noida (201012), Uttar Pradesh, India</span>
             </li>
           </ul>
         </div>
