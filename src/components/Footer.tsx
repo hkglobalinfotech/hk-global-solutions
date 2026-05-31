@@ -19,7 +19,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Brand */}
         <div>
-          <img src={logo} alt="HK Global Infotech" className="h-16 w-auto mb-4 brightness-0 invert" />
+          <img src={logo} alt="HK Global Infotech" className="h-16 w-auto mb-4 bg-white p-2 rounded" />
           <p className="text-sm text-primary-foreground/70 leading-relaxed">
             HK Global Infotech, led by industry experts, has been delivering business outsourcing and back-office operations services for over a decade.
           </p>
