@@ -33,7 +33,7 @@ const Contact = () => {
               </div>
               <h3 className="font-bold text-foreground mb-2">Make a Call</h3>
               <p className="text-sm text-muted-foreground">+91 120 4258158</p>
-              <p className="text-sm text-muted-foreground">+91-8595510366</p>
+              <p className="text-sm text-muted-foreground">+91-9717943343</p>
             </div>
             <div className="bg-card border border-border rounded-xl p-6 text-center">
               <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
